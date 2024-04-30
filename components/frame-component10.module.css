@@ -1,0 +1,109 @@
+.lanamentosDaSemana {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.groupIcon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupIcon,
+.marketingDigital {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.marketing {
+  position: relative;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  min-width: 60px;
+  z-index: 2;
+  margin-top: -2px;
+}
+.groupParent,
+.marketingDigitalParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupParent {
+  width: 141px;
+  gap: var(--gap-4xs);
+}
+.groupIcon1 {
+  width: 141px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.gastronomiaBsica {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.nutrio {
+  position: relative;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  min-width: 51px;
+  z-index: 2;
+  margin-top: -2px;
+}
+.gastronomiaBsicaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 23px;
+  right: -14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupGroup {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-4xs);
+}
+.categoriesList,
+.groupGroup,
+.mediaDigitals {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categoriesList {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-sm);
+}
+.mediaDigitals {
+  height: 149px;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

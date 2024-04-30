@@ -1,0 +1,222 @@
+.vectorIcon {
+  width: 375px;
+  height: 1263px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frameIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 125px;
+  box-sizing: border-box;
+  gap: var(--gap-base-5);
+  max-width: 100%;
+}
+.groupIcon,
+.groupIcon1 {
+  width: 336px;
+  position: absolute;
+  margin: 0 !important;
+  left: -41px;
+}
+.groupIcon {
+  height: 287px;
+  top: -218px;
+  object-fit: cover;
+  z-index: 1;
+}
+.groupIcon1 {
+  height: 95px;
+  bottom: -39px;
+  z-index: 2;
+}
+.cozinhaContempornea {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.groupParent,
+.home1Inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.groupParent {
+  width: 264px;
+  justify-content: flex-start;
+  position: relative;
+}
+.home1Inner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) var(--padding-9xs);
+}
+.frameIcon1,
+.maskGroupIcon {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameIcon1 {
+  height: 24px;
+  width: 24px;
+  right: -14px;
+  bottom: 204px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.maskGroupIcon {
+  height: 16px;
+  width: 82px;
+  bottom: 10px;
+  left: 5px;
+  z-index: 2;
+}
+.weeklyTrends {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.frameGroup,
+.maskGroupIcon1 {
+  position: relative;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 321px;
+  height: 456px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maskGroupIcon1 {
+  align-self: stretch;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.maskGroupWrapper {
+  flex: 0.9492;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 38px;
+}
+.explorar {
+  position: relative;
+  display: inline-block;
+  min-width: 45px;
+  z-index: 2;
+}
+.explorarWrapper {
+  flex: 0.8333;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 35px;
+}
+.cursos {
+  width: 45px;
+  flex-shrink: 0;
+}
+.busca,
+.cursos,
+.podcasts {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.podcasts {
+  flex: 1;
+  min-width: 38px;
+}
+.busca {
+  width: 39px;
+  flex-shrink: 0;
+}
+.frameContainer,
+.home1,
+.home1Child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.home1,
+.home1Child {
+  box-sizing: border-box;
+}
+.home1Child {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 0 var(--padding-9xs);
+  max-width: 100%;
+  font-size: var(--font-size-2xs);
+}
+.home1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 67px var(--padding-xl) var(--padding-6xs);
+  gap: 55px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 85px) {
+  .maskGroupWrapper {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 82px) {
+  .explorarWrapper {
+    flex: 1;
+  }
+}

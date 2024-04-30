@@ -1,0 +1,110 @@
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-5);
+}
+.meusCursos {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 128px;
+  z-index: 1;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.groupIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.filterOptionsIcon {
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 2;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 59px;
+  left: 8px;
+  width: 72px;
+  height: 14px;
+  z-index: 2;
+}
+.groupParent {
+  height: 88px;
+  width: 88px;
+  position: relative;
+}
+.frameIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameIcon {
+  top: 22.5px;
+  left: 29.5px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 2;
+}
+.maskGroupIcon1 {
+  position: absolute;
+  top: 58.5px;
+  left: 18.5px;
+  width: 50px;
+  height: 14px;
+  z-index: 2;
+}
+.groupGroup {
+  height: 100%;
+  width: 87px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -47.5px;
+  bottom: 0;
+}
+.frameParent,
+.logoArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoArea {
+  height: 87px;
+  width: 39.5px;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

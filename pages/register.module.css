@@ -1,0 +1,207 @@
+.endereoDeEMail,
+.senha {
+  position: relative;
+  z-index: 3;
+}
+.senha {
+  display: inline-block;
+  min-width: 51px;
+}
+.senhaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.confirmeSuaSenha {
+  position: relative;
+  z-index: 3;
+}
+.endereoDeEMailParent,
+.register1Inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.endereoDeEMailParent {
+  flex-direction: column;
+  gap: 28px;
+}
+.register1Inner {
+  flex-direction: row;
+  padding: 0 40px 98.5px;
+}
+.registreSeCom {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  position: absolute;
+  height: 96.9%;
+  width: 95.17%;
+  top: 1.72%;
+  right: 2.41%;
+  bottom: 1.38%;
+  left: 2.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.appleLogoInput {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.passwordConfirmationLabel {
+  position: absolute;
+  height: 96.33%;
+  width: 97%;
+  top: 1.67%;
+  right: 1.33%;
+  bottom: 2%;
+  left: 1.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linkedInLogoInput {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 87.39%;
+  width: 73.48%;
+  top: 6.09%;
+  right: 13.04%;
+  bottom: 6.52%;
+  left: 13.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.accountCreationProgressBar {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.accountCreationProgressBarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.appleLogoInputParent {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.appleLogoInputParent,
+.frameWrapper,
+.registreSeComParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-xs) 0 var(--padding-6xs);
+}
+.registreSeComParent {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.register1Child {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+  color: var(--color-white);
+}
+.contateNos,
+.nossaPoltica,
+.termosDeServio {
+  position: relative;
+  display: inline-block;
+  min-width: 129px;
+  z-index: 2;
+}
+.contateNos,
+.nossaPoltica {
+  min-width: 98px;
+}
+.contateNos {
+  min-width: 91px;
+}
+.termosDeServioParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.praQuemFaz {
+  position: relative;
+  z-index: 2;
+}
+.praQuemFazWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-8xl);
+}
+.frameFooter,
+.frameParent,
+.register1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+}
+.frameFooter,
+.register1 {
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-poppins);
+}
+.frameFooter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lg) 0 var(--padding-base);
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.register1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 var(--padding-lgi) var(--padding-8xs);
+  gap: 50px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}

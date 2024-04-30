@@ -1,0 +1,110 @@
+.subComponentsIcon,
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.subComponentsIcon,
+.vectorIcon1 {
+  z-index: 3;
+}
+.subComponentsIcon {
+  z-index: 4;
+}
+.productModulesIcon,
+.subComponentsIcon1,
+.subComponentsIcon2,
+.vectorIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.productModulesIcon,
+.subComponentsIcon2,
+.vectorIcon2 {
+  z-index: 6;
+}
+.productModulesIcon,
+.vectorIcon2 {
+  z-index: 7;
+}
+.vectorIcon2 {
+  z-index: 8;
+}
+.vectorIcon3 {
+  z-index: 9;
+}
+.subComponents,
+.subComponents1,
+.subComponents2,
+.subComponents3,
+.vectorContainer,
+.vectorGroup,
+.vectorIcon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.vectorParent {
+  height: 100px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameIcon,
+.groupIcon {
+  position: absolute;
+  z-index: 2;
+}
+.frameIcon {
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.groupIcon {
+  top: 0;
+  left: 28px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 52px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}

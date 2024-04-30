@@ -1,0 +1,206 @@
+.mdulosDoCurso {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.frameIcon,
+.frameIcon1 {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 0 !important;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameIcon {
+  right: 1px;
+  bottom: 12px;
+}
+.frameIcon1 {
+  top: 68px;
+  right: 0;
+}
+.groupIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.moduleNesting1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.mdulo1Introduo,
+.mdulo2Variveis {
+  position: relative;
+  z-index: 1;
+}
+.mdulo2Variveis {
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  min-width: 116px;
+}
+.mdulo1IntroduoParent,
+.moduleNesting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+}
+.moduleNesting {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.groupIcon1 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.groupWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.mdulo3Funes,
+.mdulo4Bibliotecas {
+  position: relative;
+  display: inline-block;
+  min-width: 129px;
+  z-index: 1;
+}
+.mdulo4Bibliotecas {
+  font-size: var(--font-size-xs);
+  min-width: 127px;
+}
+.mdulo3FunesParent,
+.moduleNesting2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+}
+.moduleNesting2 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.instrutores {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 1;
+}
+.moduleNestingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameIcon2 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameWrapper,
+.functionsLabel {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.functionsLabel {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.groupIcon2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupIcon {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupParent,
+.maskGroupWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maskGroupWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+}
+.groupParent {
+  width: 290px;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.frameParent,
+.functionsLabelParent,
+.mdulosDoCursoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.functionsLabelParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.frameParent,
+.mdulosDoCursoParent {
+  align-self: stretch;
+}
+.frameParent {
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-sm);
+}
+.mdulosDoCursoParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

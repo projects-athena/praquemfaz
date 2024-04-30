@@ -1,0 +1,230 @@
+.groupIcon,
+.groupIcon1,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.groupIcon,
+.groupIcon1 {
+  height: 16.49%;
+  width: 87.2%;
+  top: 65.73%;
+  right: 6.4%;
+  bottom: 17.79%;
+  left: 6.4%;
+  z-index: 1;
+}
+.groupIcon1 {
+  height: 25.38%;
+  width: 76.8%;
+  top: 15.18%;
+  right: 16.8%;
+  bottom: 59.44%;
+}
+.frameIcon,
+.groupIcon2,
+.vectorIcon1 {
+  position: absolute;
+  top: 778px;
+  left: 24px;
+  width: 327px;
+  height: 48px;
+  z-index: 1;
+}
+.frameIcon,
+.groupIcon2 {
+  height: 6.51%;
+  width: 100%;
+  top: 93.49%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameIcon {
+  height: 2.17%;
+  width: 5.33%;
+  top: 94.69%;
+  right: 9.6%;
+  bottom: 3.15%;
+  left: 85.07%;
+  z-index: 2;
+}
+.fillContentIcon,
+.maskGroupIcon {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 56px;
+  height: 14px;
+  z-index: 2;
+}
+.fillContentIcon {
+  top: 0;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.distributeSpaceEvenly,
+.frameIcon1 {
+  height: 39px;
+  width: 56px;
+  position: relative;
+}
+.frameIcon1 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-3xs);
+}
+.explorar {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 2;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-5);
+}
+.frameIcon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-6xs);
+}
+.cursos {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 2;
+}
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-5);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameIcon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-sm);
+}
+.podcasts {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 2;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-8xs-5);
+}
+.busca {
+  position: relative;
+  display: inline-block;
+  min-width: 34px;
+  z-index: 2;
+}
+.buscaWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl-5) 0 0;
+}
+.fitContent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-3xl);
+}
+.alignLeft,
+.fitContent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.alignLeft {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xl) 0 0;
+  gap: var(--gap-3xl);
+}
+.frameParent {
+  position: absolute;
+  top: 446px;
+  left: 24px;
+  width: 351px;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.homeUsurio1 {
+  width: 100%;
+  height: 922px;
+  position: relative;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

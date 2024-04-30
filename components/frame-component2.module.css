@@ -1,0 +1,49 @@
+.groupIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid);
+}
+.marketing {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+  z-index: 2;
+}
+.groupParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-smi) var(--padding-xs-5);
+  position: relative;
+  gap: var(--gap-5xs-5);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

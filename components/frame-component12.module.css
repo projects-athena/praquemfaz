@@ -1,0 +1,284 @@
+.cursosMaisComprados {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.groupIcon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupIcon,
+.mdiasDigitais {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.profArthurBernardes {
+  position: relative;
+  font-size: var(--font-size-xs);
+  z-index: 2;
+  margin-top: -2px;
+}
+.mdiasDigitaisParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+}
+.categorias {
+  margin: 0;
+  width: 127px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.groupParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.groupIcon1 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.anliseDeMercado,
+.groupIcon1,
+.profAnaCosta {
+  position: relative;
+  z-index: 1;
+}
+.profAnaCosta {
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  min-width: 104px;
+  z-index: 2;
+  margin-top: -2px;
+}
+.anliseDeMercadoParent,
+.frameParent,
+.groupGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.anliseDeMercadoParent {
+  flex-direction: column;
+}
+.frameParent,
+.groupGroup {
+  flex: 1;
+}
+.groupGroup {
+  height: 117px;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+}
+.groupIcon2,
+.maskGroupIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.maskGroupIcon {
+  top: 7px;
+  left: 13px;
+  width: 38px;
+  height: 16px;
+  z-index: 2;
+}
+.groupContainer,
+.groupIcon3 {
+  height: 34px;
+  position: relative;
+}
+.groupContainer {
+  width: 62px;
+}
+.groupIcon3 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameContainer {
+  width: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.groupIcon4 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.negcios {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  z-index: 2;
+}
+.groupParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-6xs) var(--padding-7xs)
+    var(--padding-mini);
+  position: relative;
+}
+.groupIcon5,
+.maskGroupIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.maskGroupIcon1 {
+  top: 9px;
+  left: 14px;
+  width: 34px;
+  height: 16px;
+  z-index: 2;
+}
+.groupParent2 {
+  height: 34px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 0 var(--padding-sm);
+}
+.frameDiv {
+  width: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.groupIcon6,
+.maskGroupIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.maskGroupIcon2 {
+  top: 9px;
+  left: 13px;
+  width: 48px;
+  height: 16px;
+  z-index: 2;
+}
+.groupParent3 {
+  height: 34px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper1 {
+  width: 93px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.groupIcon7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 111px;
+  height: 34px;
+  z-index: 1;
+}
+.gastronomia {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  display: inline-block;
+  width: 112px;
+  z-index: 2;
+}
+.groupParent4 {
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.cursosMaisCompradosParent,
+.frameGroup,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-9xs-5);
+  font-size: var(--font-size-xs);
+}
+.cursosMaisCompradosParent {
+  width: 302px;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs-5);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

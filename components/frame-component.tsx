@@ -1,0 +1,69 @@
+import type { NextPage } from "next";
+import styles from "./frame-component.module.css";
+
+const FrameComponent: NextPage = () => {
+  return (
+    <section className={styles.groupParent}>
+      <img className={styles.groupIcon} alt="" src="/group2.svg" />
+      <div className={styles.frameParent}>
+        <div className={styles.vectorParent}>
+          <img className={styles.vectorIcon} alt="" />
+          <div className={styles.vectorGroup}>
+            <img className={styles.vectorIcon1} alt="" />
+            <div className={styles.vectorContainer}>
+              <img className={styles.vectorIcon2} alt="" />
+              <div className={styles.frameDiv}>
+                <img className={styles.vectorIcon3} alt="" />
+                <div className={styles.vectorParent1}>
+                  <img className={styles.vectorIcon4} alt="" />
+                  <div className={styles.vectorParent2}>
+                    <img className={styles.vectorIcon5} alt="" />
+                    <div className={styles.vectorParent3}>
+                      <img className={styles.vectorIcon6} alt="" />
+                      <div className={styles.vectorParent4}>
+                        <img className={styles.vectorIcon7} alt="" />
+                        <div className={styles.vectorParent5}>
+                          <img className={styles.vectorIcon8} alt="" />
+                          <div className={styles.vectorParent6}>
+                            <img className={styles.vectorIcon9} alt="" />
+                            <div className={styles.vectorParent7}>
+                              <img className={styles.vectorIcon10} alt="" />
+                              <div className={styles.vectorParent8}>
+                                <img className={styles.vectorIcon11} alt="" />
+                                <div className={styles.vectorParent9}>
+                                  <img className={styles.vectorIcon12} alt="" />
+                                  <div className={styles.courseExplorerParent}>
+                                    <img
+                                      className={styles.courseExplorerIcon}
+                                      alt=""
+                                    />
+                                    <img
+                                      className={styles.courseExplorerIcon1}
+                                      alt=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          className={styles.logoPraQuemFaz1Icon}
+          loading="lazy"
+          alt=""
+          src="/logopraquemfaz-1@2x.png"
+        />
+      </div>
+    </section>
+  );
+};
+
+export default FrameComponent;
